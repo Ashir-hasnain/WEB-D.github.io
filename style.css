@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bgimg{
+    background-image: url('a.jpg');
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+    position: cover;
+}
+.heading{
+    color: rgb(37, 107, 219);
+    font-size: 90px;
+    /* display: inline-flex; */
+    /* margin-left:562px ; */
+    text-align: center;
+    /* margin-top: 10px; */
+  
+}
+
+.heading2{
+    color: rgb(50, 50, 50);
+    font-size: 90px;
+    /* display: inline-flex; */
+    /* margin-left:562px ; */
+    text-align: center;
+    margin-top: 25px;
+  
+}
+
+
+
+header ul{
+    /* border:1px solid oldlace; */
+    text-align: center;
+    top: 50px;
+}
+header ul li {
+    justify-content: center;
+    list-style: none;
+    display: inline-flex;
+    padding: 5px 20px;
+    /* border: 1px solid snow; */
+    text-align: center;
+    margin: 27px 5px;
+    position: relative;
+    transition: 1s ease;
+    
+}
+header ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 0.8rem;
+    
+
+}
+header ul li:hover{
+    background: rgba(113, 138, 251, 0.794);
+    transition: 1s ease;
+    border-radius: 100px;
+   
+}
+section #img{
+    display: block;
+} 
+#img{
+    justify-content: center; 
+    display: flex;
+    text-align: center;
+    
+}
+#img img {
+    
+    width: 122px;
+    height: 160px;
+    margin: 3px 01px;
+    transition: 1s cubic-bezier(0.25, 1.68, 0, 0.73);
+
+}
+
+
+
+#img img:hover{
+    box-shadow:2px blue;
+    width: 122px;
+    height: 158px;
+    border-radius: 100px;
+   transition: 0.5s ease-in-out;
+}
+
+   
+
+
+#abot{
+    justify-items: center;
+	text-align: center;
+	background: color #000000;
+}
+
+#abot h1{
+
+    color: coral;
+    font-size: 3.5rem;
+}
+#abot p{
+    font-style: italic;
+    font-size: 1.5rem;
+    color: cadetblue;
+    font-weight: bolder;
+}
+
+
+
+
+/*Footer*/
+
+footer{
+	justify-items: center;
+	text-align: center;
+	background: color #000000;
+}
+
+footer p{
+    margin-top: 2%;
+	font-style: italic;
+	font-size: 1rem;
+    font-weight: bolder;
+    color: #000000;
+
+}
+

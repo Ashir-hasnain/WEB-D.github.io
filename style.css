@@ -13,7 +13,7 @@
 }
 .heading{
     color: rgb(37, 107, 219);
-    font-size: 90px;
+    font-size: 5rem;
     /* display: inline-flex; */
     /* margin-left:562px ; */
     text-align: center;
@@ -23,7 +23,7 @@
 
 .heading2{
     color: rgb(50, 50, 50);
-    font-size: 90px;
+    font-size: 3rem;
     /* display: inline-flex; */
     /* margin-left:562px ; */
     text-align: center;
@@ -64,6 +64,28 @@ header ul li:hover{
     border-radius: 100px;
    
 }
+
+.focus{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+
+}
+
+.focus img{
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    transition: 1s ease;
+}
+
+.focus img:hover{
+    transition: 1s ease;
+    border-radius: 50px;
+         
+}
+
 section #img{
     display: block;
 } 
@@ -132,4 +154,5 @@ footer p{
     color: #000000;
 
 }
+
 
